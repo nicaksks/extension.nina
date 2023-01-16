@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'KGCorneroftheSky';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../assets/fonts/KGCorneroftheSky.ttf") format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 100px;
+  font-family: KGCorneroftheSky;
+  background-color: #F5E8DF;
+}
+
+.navbar {
+  background-color: #b6afaa;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar button {
+  display: inline-block;
+  background: none;
+  border: none;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  font-family: KGCorneroftheSky;
+}
+
+.navbar button:hover {
+  background-color: #F5E8DF ;
+}
+
+img {
+  width: auto;
+  height: auto;
+  display: block;
+  transform: translate(0%, 10%);
+}
+
+p {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  transform: translate(0%, 0%);
+}
+
+.table-cs {
+  border-collapse: collapse;
+  margin: 10px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table {
+  width: 400px;
+  border-collapse: collapse;
+  border: none;
+  table-layout: fixed;
+}
+
+tr, th {
+  Color: white;
+  border-radius: 1px solid black;
+}
+
+th, td {
+  border: none;
+  padding: 1px;
+  background-color: #b6afaa;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.number {
+  color: black;
+}
+
+a:visited {
+  color: white;
+}
+
+a:link {
+  color: black;
+}
+
+.remove {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  background: none;
+  font-family: KGCorneroftheSky;
+}
+
+#clear {
+  display: none;
+}

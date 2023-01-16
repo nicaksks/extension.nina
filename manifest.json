@@ -1,0 +1,27 @@
+{
+   "name": "Nina",
+   "description": "Salve suas páginas sem precisar deixar elas salvas na barra de favoritos.",
+   "version": "1.0",
+   "manifest_version": 3,
+   "permissions": [
+      "storage",
+      "tabs",
+      "activeTab",
+      "contextMenus"
+   ],
+   "action": {
+      "default_popup": "index.html "
+   },
+   "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+   ],
+   "background": {
+      "service_worker": "assets/js/background.js"
+   },
+   "icons": {
+      "16": "assets/imgs/icons/icon16.png",
+      "48": "assets/imgs/icons/icon48.png",
+      "128": "assets/imgs/icons/icon128.png"
+   }
+}
