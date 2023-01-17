@@ -1,9 +1,15 @@
 let show = document.getElementById("show");
 let list = document.getElementById("list");
 let clear = document.getElementById("clear");
+let c = true
 
-show.addEventListener("click", showURL);
 clear.addEventListener("click", clearURL);
+show.addEventListener("click", () => {
+  if(c) {
+    showURL();
+    c = false;
+  };
+});
 
 function saveURL() {
   chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
