@@ -88,7 +88,7 @@ function home() {
 };
 
 function bn() {
-  clear.style.display = "inline-block";
+  clear.style.display = "block";
   document.getElementById("nina").style.display = "none";
   document.getElementById("text").style.display = "none";
 };
